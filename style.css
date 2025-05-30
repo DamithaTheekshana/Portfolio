@@ -1,0 +1,31 @@
+
+    body {
+      text-align: center;
+    }
+    .section-container {
+      background-color: beige;
+      border-radius: 30px;
+      padding: 40px 20px;
+      margin-top: 30px;
+    }
+    #bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+ 
+.navbar-nav .nav-link.nav-btn {
+  margin-left: 15px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link.nav-btn:hover {
+  background-color: #ffffff22;
+  color: #ffc107; 
+}
